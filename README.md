@@ -1,12 +1,24 @@
-# D2P
+# D2
 
-D2P is a lightweight PHP framework which can be used as Composer project to create your own software.
+D2 Project is a lightweight PHP framework which can be used as Composer project 
+to create your own software.
 
 # How to get it?
 
   - You can use `git clone` to get it from GitHub
   - You can use Composer to install it as skeleton project: 
-    `composer create-project wex/d2p:dev-master --repository-url=<tba>`
+    `composer create-project nhujanen/d2p`
+
+# How to use it?
+
+  - After you have used Composer's create-project, you should do following:
+    `cd d2p`
+    `composer update`
+  - Now you should configure your database credentials - those can be located
+    from d2p/.config
+  - Now you can continue set up process by:
+    `composer setup`
+    `chmod +x keen` (if you want to use Commander Keen)
 
 # Requirements
 
