@@ -1,5 +1,7 @@
 /vendor
-/public
+/public/css
+/public/js
+/public/img
 /storage
 composer.lock
 .config

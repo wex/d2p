@@ -7,6 +7,7 @@ use Wex\Command;
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
+define('__ROOT__', __DIR__);
 require 'vendor/autoload.php';
 
 $command    = $_SERVER['argv'][1] ?? null;
