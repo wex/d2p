@@ -17,4 +17,9 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
+    
+    public function testAppExists()
+    {
+        $this->assertInstanceOf(App::class, self::$app);
+    }
 }
